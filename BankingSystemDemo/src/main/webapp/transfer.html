@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fund Transfer</title>
+</head>
+<body background="images\BankBackground.jpg">
+
+<center>
+    <h2>Fund Transfer</h2>
+
+    <form action="transferServlet" method="post">
+        From Account:
+        <input type="text" name="fromAccount"><br><br>
+
+        To Account:
+        <input type="text" name="toAccount"><br><br>
+
+        Amount:
+        <input type="number" name="amount"><br><br>
+
+        <input type="submit" value="Transfer">
+        <input type="reset" value="Clear">
+    </form>
+
+    <br>
+    <a href="LoginSuccess.jsp">Back to Dashboard</a>
+</center>
+
+</body>
+</html>
